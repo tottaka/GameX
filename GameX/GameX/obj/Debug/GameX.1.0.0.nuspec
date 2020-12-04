@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GameX</id>
+    <version>1.0.0</version>
+    <authors>GameX</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="AssimpNet" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="BEPUphysics" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="ImGui.NET" version="1.78.0" exclude="Build,Analyzers" />
+        <dependency id="K4os.Compression.LZ4" version="1.2.6" exclude="Build,Analyzers" />
+        <dependency id="K4os.Compression.LZ4.Streams" version="1.2.6" exclude="Build,Analyzers" />
+        <dependency id="OpenTK" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Kim\source\repos\GameX\GameX\bin\Debug\netcoreapp3.1\GameX.runtimeconfig.json" target="lib\netcoreapp3.1\GameX.runtimeconfig.json" />
+    <file src="C:\Users\Kim\source\repos\GameX\GameX\bin\Debug\netcoreapp3.1\GameX.dll" target="lib\netcoreapp3.1\GameX.dll" />
+  </files>
+</package>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GameX": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Kim\\Desktop\\GameX_Dev\""
+    }
+  }
+}
